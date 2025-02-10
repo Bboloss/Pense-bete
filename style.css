@@ -1,45 +1,37 @@
-#inputNew {
-  width: 150px;
-  background-color: bisque;
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  min-height: 100vh;
+  background-color: paleturquoise;
+}
+
+header {
+  padding-top: 30px;
+  height: 60px;
+  display: grid;
+  grid-template-columns: 80% 20%;
 }
 
 label {
-  margin-left: 10px;
-}
-
-li {
-  width: 200px;
-  height: 20px;
-  margin-top: 0;
-}
-
-button {
-  position: relative;
-  left: 210px;
-  bottom: 21px;
-}
-
-#buttonDone {
-}
-
-h1 {
-  color: firebrick;
-  font-size: 50px;
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  
-}
-body {
-  background-color: paleturquoise;
-  margin: auto;
-}
-
-#list {
-  height: 410px;
-  width: 270px;
-  border: 1px solid black;
-  background-color: bisque;
   margin-left: 20px;
-  padding-top: 20px;
+  font-size: 2rem;
 }
+
+input {
+  background-color: ;
+  width: 90%;
+  border-radius: 10px;
+  margin: 0 auto;
+  font-size: 1.5em;
+  text-align: center;
+  box-shadow: -4px 1px 20px 4px #025f5a4a;
+ }
+
+main {
+  background-color: bisque;
+  min-height: 80vh;
+  margin-top: 40px;
+ }
+
+
+
